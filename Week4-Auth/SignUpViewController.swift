@@ -19,25 +19,6 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        passwordTextField.isSecureTextEntry = true
-//        retypePasswordTextField.isSecureTextEntry = true
-
-        // Do any additional setup after loading the view.
-//        let navigationBar = navigationController?.navigationBar
-        
-//        navigationBar?.barTintColor = UIColor.clear
-        
-//        navigationBar?.isTranslucent = false
-//        navigationBar?.setBackgroundImage(UIImage(), for: .default)
-//        navigationBar?.shadowImage = UIImage()
-        
-//        let navigationBarApperance = UINavigationBarAppearance()
-//        navigationBarApperance.shadowColor = .clear
-//        navigationBar?.scrollEdgeAppearance = navigationBarApperance
-        setNavigationBar()
-        
-        
-//        continueButton.backgroundColor = .clear
         continueButton.layer.cornerRadius = 10
     }
     
@@ -46,6 +27,10 @@ class SignUpViewController: UIViewController {
         navigationBar?.isTranslucent = false
         navigationBar?.setBackgroundImage(UIImage(), for: .default)
         navigationBar?.shadowImage = UIImage()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setNavigationBar()
     }
     
 
