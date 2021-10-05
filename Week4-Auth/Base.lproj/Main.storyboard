@@ -40,7 +40,7 @@
         <!--Sign Up-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EzF-3C-w1S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,7 +93,7 @@
                                                             <constraint firstAttribute="height" constant="18.5" id="qfD-81-eBY"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPG-h7-Be1">
                                                         <rect key="frame" x="0.0" y="109.5" width="330" height="2"/>
@@ -109,7 +109,7 @@
                                                             <constraint firstAttribute="height" constant="18.5" id="QXH-Mk-JAR"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYN-25-Mdl">
                                                         <rect key="frame" x="0.0" y="150" width="330" height="2"/>
@@ -207,6 +207,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="qNg-zJ-MdU"/>
+                    <connections>
+                        <outlet property="continueButton" destination="ClK-JP-bhc" id="81M-fO-Zp2"/>
+                        <outlet property="emailConfirmTextField" destination="XDI-Rq-ylj" id="bsT-sC-OdO"/>
+                        <outlet property="emailTextField" destination="Iyp-rV-bvQ" id="9Rf-yQ-npL"/>
+                        <outlet property="passwordTextField" destination="bZz-zw-rVm" id="I2S-Xf-hMd"/>
+                        <outlet property="retypePasswordTextField" destination="lfi-eX-DWk" id="1h8-i5-liL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
