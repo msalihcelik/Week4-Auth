@@ -13,16 +13,12 @@ class Step2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        setButtonAttributes()
+    }
+    
+    func setButtonAttributes() {
         continueButton.layer.cornerRadius = 10
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        let navigationBar = navigationController?.navigationBar
-        navigationBar?.isTranslucent = true
-        navigationBar?.backgroundColor = UIColor.white
-        navigationBar?.tintColor = UIColor.systemBlue
-    }
-    
 
 }

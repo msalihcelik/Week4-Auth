@@ -93,7 +93,7 @@
                                                             <constraint firstAttribute="height" constant="18.5" id="qfD-81-eBY"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPG-h7-Be1">
                                                         <rect key="frame" x="0.0" y="109.5" width="330" height="2"/>
@@ -109,7 +109,7 @@
                                                             <constraint firstAttribute="height" constant="18.5" id="QXH-Mk-JAR"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYN-25-Mdl">
                                                         <rect key="frame" x="0.0" y="150" width="330" height="2"/>
@@ -187,7 +187,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="heM-UG-byv" secondAttribute="trailing" id="Hbl-ac-7j5"/>
                                     <constraint firstItem="heM-UG-byv" firstAttribute="width" secondItem="3XF-pN-8ZN" secondAttribute="width" id="UHT-kb-SXi"/>
-                                    <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Odf-zR-jSY" secondAttribute="bottom" constant="70" id="a5L-NA-U3A"/>
                                     <constraint firstItem="heM-UG-byv" firstAttribute="leading" secondItem="3XF-pN-8ZN" secondAttribute="leading" id="bfn-Sd-VjH"/>
                                     <constraint firstItem="heM-UG-byv" firstAttribute="top" secondItem="3XF-pN-8ZN" secondAttribute="top" id="cJ8-dr-j4o"/>
                                     <constraint firstItem="Odf-zR-jSY" firstAttribute="top" secondItem="ClK-JP-bhc" secondAttribute="bottom" constant="8" symbolic="YES" id="jjE-Nn-umj"/>
@@ -437,7 +436,6 @@
                                     <constraint firstItem="Ksb-BY-rJV" firstAttribute="top" secondItem="YQV-zJ-Izm" secondAttribute="bottom" constant="8" symbolic="YES" id="MTA-rW-ob0"/>
                                     <constraint firstItem="YQV-zJ-Izm" firstAttribute="top" secondItem="gWx-LQ-4WN" secondAttribute="bottom" constant="360" id="N6P-hI-utV"/>
                                     <constraint firstAttribute="trailing" secondItem="Ksb-BY-rJV" secondAttribute="trailing" constant="110" id="Svr-DD-Zzx"/>
-                                    <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Ksb-BY-rJV" secondAttribute="bottom" constant="69" id="fmq-wr-BNa"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

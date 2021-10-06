@@ -19,6 +19,10 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setButtonAttributes()
+    }
+    
+    func setButtonAttributes() {
         continueButton.layer.cornerRadius = 10
     }
     
