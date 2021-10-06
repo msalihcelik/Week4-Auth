@@ -15,10 +15,17 @@ class CreateViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tapGesture = UITapGestureRecognizer(target: self,
+                                 action: #selector(hideKeyboard))
+        view.addGestureRecognizer(tapGesture)
         
         setButtonAttributes()
         setTextView()
     }
+    
+    @objc func hideKeyboard() {
+            view.endEditing(true)
+        }
     
     func setButtonAttributes() {
         createButton.layer.cornerRadius = 10
