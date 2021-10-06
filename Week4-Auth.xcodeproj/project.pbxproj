@@ -15,6 +15,7 @@
 		67C64D98270C4993007E8881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C64D96270C4993007E8881 /* LaunchScreen.storyboard */; };
 		67C64DA2270CC913007E8881 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C64DA1270CC913007E8881 /* SignUpViewController.swift */; };
 		67C64DA4270CF408007E8881 /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C64DA3270CF408007E8881 /* Step2ViewController.swift */; };
+		67DE1BF8270DF1B5000D8342 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE1BF7270DF1B5000D8342 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		67C64D99270C4993007E8881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67C64DA1270CC913007E8881 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		67C64DA3270CF408007E8881 /* Step2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		67DE1BF7270DF1B5000D8342 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				67C64D99270C4993007E8881 /* Info.plist */,
 				67C64DA1270CC913007E8881 /* SignUpViewController.swift */,
 				67C64DA3270CF408007E8881 /* Step2ViewController.swift */,
+				67DE1BF7270DF1B5000D8342 /* CreateViewController.swift */,
 			);
 			path = "Week4-Auth";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				67C64D90270C4993007E8881 /* ViewController.swift in Sources */,
 				67C64DA4270CF408007E8881 /* Step2ViewController.swift in Sources */,
+				67DE1BF8270DF1B5000D8342 /* CreateViewController.swift in Sources */,
 				67C64D8C270C4993007E8881 /* AppDelegate.swift in Sources */,
 				67C64DA2270CC913007E8881 /* SignUpViewController.swift in Sources */,
 				67C64D8E270C4993007E8881 /* SceneDelegate.swift in Sources */,
