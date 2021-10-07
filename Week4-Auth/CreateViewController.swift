@@ -45,7 +45,7 @@ class CreateViewController: UIViewController, UITextViewDelegate {
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
-        if textView.text == "" {
+        if textView.text.isEmpty {
                 textView.text = "What was your first car?"
                 textView.textColor = UIColor.lightGray
             }

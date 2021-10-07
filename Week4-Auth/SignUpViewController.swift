@@ -22,7 +22,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         let tapGesture = UITapGestureRecognizer(target: self,
                                  action: #selector(hideKeyboard))
         view.addGestureRecognizer(tapGesture)
-        
         setButtonAttributes()
         setTextField()
 
