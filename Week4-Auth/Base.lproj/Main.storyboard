@@ -30,7 +30,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ePL-8F-NLp"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tEb-rX-GhL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ieo-si-HYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -40,7 +40,7 @@
         <!--Sign Up-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RegisterViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EzF-3C-w1S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -157,7 +157,7 @@
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                         <state key="normal" title="Continue"/>
                                         <connections>
-                                            <action selector="continueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g4A-g7-8i6"/>
+                                            <action selector="continueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="765-fq-6za"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odf-zR-jSY">
@@ -198,23 +198,23 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="qNg-zJ-MdU"/>
                     <connections>
-                        <outlet property="buttonTopConstraint" destination="zPM-iB-5qw" id="QUy-8O-SbW"/>
-                        <outlet property="continueButton" destination="ClK-JP-bhc" id="81M-fO-Zp2"/>
-                        <outlet property="emailConfirmTextField" destination="XDI-Rq-ylj" id="bsT-sC-OdO"/>
-                        <outlet property="emailTextField" destination="Iyp-rV-bvQ" id="9Rf-yQ-npL"/>
-                        <outlet property="passwordTextField" destination="bZz-zw-rVm" id="I2S-Xf-hMd"/>
-                        <outlet property="retypePasswordTextField" destination="lfi-eX-DWk" id="1h8-i5-liL"/>
-                        <segue destination="4Yg-88-yss" kind="show" identifier="to2ndVC" id="lXx-4n-erc"/>
+                        <outlet property="buttonTopConstraint" destination="zPM-iB-5qw" id="NI5-UN-N3n"/>
+                        <outlet property="continueButton" destination="ClK-JP-bhc" id="ocy-qy-idX"/>
+                        <outlet property="emailConfirmTextField" destination="XDI-Rq-ylj" id="hUg-9S-Zjv"/>
+                        <outlet property="emailTextField" destination="Iyp-rV-bvQ" id="8em-gI-6ge"/>
+                        <outlet property="passwordTextField" destination="bZz-zw-rVm" id="8YS-G0-piF"/>
+                        <outlet property="retypePasswordTextField" destination="lfi-eX-DWk" id="PVa-B8-VZR"/>
+                        <segue destination="4Yg-88-yss" kind="show" identifier="toUserInformationVC" id="mXp-sC-Cqt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1620.289855072464" y="-29.464285714285712"/>
         </scene>
-        <!--Step2 View Controller-->
+        <!--User Information View Controller-->
         <scene sceneID="UEF-81-mOk">
             <objects>
-                <viewController id="4Yg-88-yss" customClass="Step2ViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Yg-88-yss" customClass="UserInformationViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yp8-Dj-3NE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -402,7 +402,7 @@
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                         <state key="normal" title="Continue"/>
                                         <connections>
-                                            <segue destination="ng5-EW-m6l" kind="show" id="TrM-an-ZlS"/>
+                                            <segue destination="ng5-EW-m6l" kind="show" id="Wjr-yC-BVf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -447,10 +447,10 @@
             </objects>
             <point key="canvasLocation" x="-725" y="-29"/>
         </scene>
-        <!--Create View Controller-->
+        <!--Secret Question View Controller-->
         <scene sceneID="Qd7-a8-9uf">
             <objects>
-                <viewController id="ng5-EW-m6l" customClass="CreateViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ng5-EW-m6l" customClass="SecretQuestionViewController" customModule="Week4_Auth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Adz-9Q-Ufu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -536,8 +536,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="z78-vd-YF3"/>
                     <connections>
-                        <outlet property="createButton" destination="4EZ-7W-NDG" id="yPD-VE-48E"/>
-                        <outlet property="textView" destination="2Ye-GR-5Ul" id="otr-pT-mZN"/>
+                        <outlet property="createButton" destination="4EZ-7W-NDG" id="fff-vX-kxi"/>
+                        <outlet property="textView" destination="2Ye-GR-5Ul" id="o7x-2r-JbS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Yv-n1-OLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
